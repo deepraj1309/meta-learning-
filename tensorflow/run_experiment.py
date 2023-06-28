@@ -46,10 +46,10 @@ def run_experiment(PHASE='META'):
     BASE_LR = 0.001 # Base learning rate
 
     # Data directories
-    PRE_TRA_DIR = './data/mini-imagenet/train' # Directory for the pre-train phase images
-    META_TRA_DIR = './data/mini-imagenet/train' # Directory for the meta-train images
-    META_VAL_DIR = './data/mini-imagenet/val' # Directory for the meta-validation images
-    META_TES_DIR = './data/mini-imagenet/test' # Directory for the meta-test images
+    PRE_TRA_DIR = '/kaggle/input/meta-image-net/mini-imagenet/train' # Directory for the pre-train phase images
+    META_TRA_DIR = '/kaggle/input/meta-image-net/mini-imagenet/train' # Directory for the meta-train images
+    META_VAL_DIR = '/kaggle/input/meta-image-net/mini-imagenet/val' # Directory for the meta-validation images
+    META_TES_DIR = '/kaggle/input/meta-image-net/mini-imagenet/test' # Directory for the meta-test images
 
     # Generate the base command for main.py
     base_command = 'python main.py' \
